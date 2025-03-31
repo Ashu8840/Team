@@ -33,7 +33,7 @@ app.use(express.json());
 // };
 
 app.use(cors({
-  origin:"https://team-gilt-sigma.vercel.app/" ,
+  origin:"https://team-gilt-sigma.vercel.app" ,
   credentials: true,
   allowedHeaders: ['Content-Type', 'Authorization'],
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
